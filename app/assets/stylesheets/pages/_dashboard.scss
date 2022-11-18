@@ -3,6 +3,8 @@
 }
 .up{
   display: flex;
+  justify-content: space-between;
+  padding:20px 20px;
 
 }
 
@@ -30,4 +32,12 @@
   font-weight: bold;
   color: rgb(0, 98, 255);
   font-family: "Nunito";
+}
+
+.what h1{
+  color: rgb(197, 68, 115);
+  // color: rgb(212, 100, 161);
+  background-color: rgb(253, 200, 48);
+  padding: 0px 6px;
+  border-radius: 6px;
 }

@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get'nature', to: 'pages#nature'
   get'numbers', to: 'pages#numbers'
   get'school', to: 'pages#school'
+  get 'shapes', to: 'pages#shapes'
   get'sports', to: 'pages#sports'
   get'vegetables', to: 'pages#vegetables'
   get'vehicules', to: 'pages#vehicules'
