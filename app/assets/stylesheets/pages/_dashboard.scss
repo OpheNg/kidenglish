@@ -1,0 +1,33 @@
+.dashboard{
+  height: 100vh;
+}
+.up{
+  display: flex;
+
+}
+
+.dashgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  padding: 20px;
+  margin: 0 60px;
+
+}
+.card {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 8px;
+  padding: 16px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card a{
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 98, 255);
+  font-family: "Nunito";
+}
