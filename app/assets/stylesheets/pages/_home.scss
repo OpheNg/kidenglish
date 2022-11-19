@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+.middle {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(27, 101, 203);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.middle:hover{
+  background-color: rgb(69, 69, 181);
+  color: white;
+}
+.landing{
+ position: relative;
+}
+.linkk{
+  position: absolute;
+  top: 50%;
+  left:46%;
+}
