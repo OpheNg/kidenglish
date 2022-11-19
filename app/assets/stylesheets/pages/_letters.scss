@@ -1,0 +1,34 @@
+.letters{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  row-gap: 16px;
+  column-gap: 16px;
+  width: 70%;
+  margin: 20px auto;
+}
+.letters .mini{
+  width: 100px;
+}
+.letters .mini a{
+  text-decoration: none;
+  color: rgb(79, 66, 229);
+  font-size: 40px;
+  font-family: "Nunito";
+}
+
+.back{
+  color: rgb(249, 216, 85);
+  background-color: rgb(197, 68, 115);
+  font-family: "Nunito";
+  font-weight: bold;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 20px;
+
+}
+.back:hover{
+  color: rgb(197, 68, 115);
+  background-color: rgb(249, 216, 85);
+}

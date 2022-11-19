@@ -1,10 +1,10 @@
-.dashboard{
-  height: 100vh;
-}
+// .dashboard{
+//   height: 100vh;
+// }
 .up{
   display: flex;
   justify-content: space-between;
-  padding:20px 20px;
+  padding:20px 20px 0 20px;
 
 }
 
@@ -13,15 +13,16 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
   padding: 20px;
-  margin: 0 60px;
+  margin: 50px 60px;
 
 }
 .card {
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border-radius: 8px;
+  // background-color: rgb(106, 248, 177);
+  background: #a2d5b3;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  border-radius: 12px;
   padding: 16px;
-  height: 300px;
+  height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,11 +34,32 @@
   color: rgb(0, 98, 255);
   font-family: "Nunito";
 }
+.card a:hover{
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(5, 60, 149);
+  font-family: "Nunito";
+}
 
 .what h1{
   color: rgb(197, 68, 115);
   // color: rgb(212, 100, 161);
   background-color: rgb(253, 200, 48);
-  padding: 0px 6px;
+  padding: px 6px;
   border-radius: 6px;
+
+}
+.dashboard {
+  background-color: white;
+  height: 100%;
+
+}
+.dashbox{
+  padding: 20px;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }

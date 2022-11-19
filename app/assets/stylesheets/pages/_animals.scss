@@ -1,0 +1,12 @@
+.mini{
+  padding: 16px;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  max-width: 200px;
+}
+.animals{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+
+}
